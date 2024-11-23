@@ -2,11 +2,11 @@ package thisKeyword;
 class SuperPrint{
 	 String fname="sony",lname;
 	 int age;
-	void display(String fn,String ln,int age)
+	void display(String fname,String lname,int age)
 	{
-		fname=fn;
-		lname=ln;
-		//age=age;
+		this.fname=fname;
+		this.lname=lname;
+		this.age=age;
 		}
 	void print() {
 		System.out.println("The first name is "+this.fname);

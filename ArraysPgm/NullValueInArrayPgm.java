@@ -20,7 +20,7 @@ public class NullValueInArrayPgm {
 		int c[]=new int[3];
 		c[0]=12;
 		c[1]=56;
-		c[1]=null;
+		// c[1]=null;
 		c[2]=56;
 		System.out.println(Arrays.toString(c));
 		}

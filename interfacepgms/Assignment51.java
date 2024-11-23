@@ -3,6 +3,7 @@ interface Hiding
 {
 	abstract void add();
 	abstract void sub();
+	
 }
 abstract class AbstcctMthdsNdConcreteMthd implements Hiding
 {
@@ -14,7 +15,7 @@ abstract class AbstcctMthdsNdConcreteMthd implements Hiding
 		c=a+b;
 		System.out.println("Add is"+c);
 	}
-	public void sub()
+	public void sub()p
 	{
 		int a=8,b=4;
 		int c=a-b;
@@ -32,6 +33,7 @@ a.add();
 a.sub();
 a.mul();
 a.div();
+
 
 	}
 void mul()

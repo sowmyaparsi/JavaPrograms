@@ -4,10 +4,11 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 public class HashSetPgrm {
 	public static void main(String args[])
 	{
-		HashSet hs=new HashSet();
+		Set hs=new HashSet();
 		hs.add(56);
 		hs.add(120);
 		hs.add(17);
@@ -25,12 +26,6 @@ public class HashSetPgrm {
 		{
 			System.out.println(li.next());
 		}
-		/*System.out.println("backward");
-		while(li.hasPrevious())
-		{
-			System.out.println(li.previous());
-
-		}*/
 		
 	}
 }

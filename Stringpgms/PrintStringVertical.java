@@ -19,7 +19,7 @@ public class PrintStringVertical {
 			//System.out.println(c[i]);
 		System.out.println("----------");
 		for(int i=s.length()-1;i>=0;i--)
-			System.out.println(c[i]);
+		System.out.println(c[i]);
 	}
 
 }

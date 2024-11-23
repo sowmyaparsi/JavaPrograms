@@ -10,6 +10,7 @@ public class ReverseString {
 		for(i=s.length()-1;i>=0;i--)
 		{
 			a=s.charAt(i);
+			//s1=s1.concat(a);
 			s1=s1+a;
 		}
 		System.out.println("The reverse of String   " +s1);

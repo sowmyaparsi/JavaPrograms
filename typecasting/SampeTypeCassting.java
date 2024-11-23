@@ -1,8 +1,11 @@
 package typecasting;
 class Sample1
 {
+	//static int a=10;
+	//a=20;
 	void add()
 	{
+		System.out.println(a);
 		System.out.println("Print");
 	}
 }
@@ -22,9 +25,9 @@ void mul()
 	{
 		sample2 s1=new sample2();
 		Sample1 s2=s1;
-		sample2 s3=(sample2)s2;
-		s3.add();
-		s3.sub();
+		//sample2 s3=(sample2)s2;
+		s2.add();
+		//s2.sub();`
 		
 		
 	

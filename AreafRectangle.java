@@ -13,7 +13,7 @@ public class AreafRectangle {
 		int b=s.nextInt();
 		int aor=l*b;
 		System.out.println("The area of square is" +aor);
-		
+	
 	}
 
 }
